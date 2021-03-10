@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Button } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 import './NavibarMenu.scss';
 
 const NavibarMenu = () => (
@@ -13,16 +13,16 @@ const NavibarMenu = () => (
       <div className="collapse navbar-collapse">
         <ul className="navbar-nav mr-auto mt-2 mt-lg-0 w-50 nav-justified pdt-20 fs-12">
           <li className="nav-item active">
-            <a className="nav-link" href="#">Buy</a>
+            <a className="nav-link" href="!#">Buy</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Sell</a>
+            <a className="nav-link" href="!#">Sell</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">News</a>
+            <a className="nav-link" href="!#">News</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Services</a>
+            <a className="nav-link" href="!#">Services</a>
           </li>
         </ul>
         <Button className="btn custom-button">+ ADD LISTING</Button>

@@ -1,3 +1,4 @@
+/* eslint-disable react/destructuring-assignment */
 import React, { Component } from 'react';
 
 import {
@@ -30,13 +31,13 @@ class Blog extends Component {
           <div className="card-header">
             <ul className="nav nav-tabs card-header-tabs" id="bologna-list" role="tablist">
               <li className="nav-item">
-                <a className="nav-link active" href="#"><h6><b>NEWS</b></h6></a>
+                <a className="nav-link active" href="!#"><h6><b>NEWS</b></h6></a>
               </li>
               <li className="nav-item mgl-10">
-                <a className="nav-link" href="#"><h6><b>OFFERS</b></h6></a>
+                <a className="nav-link" href="!#"><h6><b>OFFERS</b></h6></a>
               </li>
               <li className="nav-item mgl-10">
-                <a className="nav-link" href="#"><h6><b>POPULAR</b></h6></a>
+                <a className="nav-link" href="!#"><h6><b>POPULAR</b></h6></a>
               </li>
             </ul>
           </div>
@@ -45,7 +46,7 @@ class Blog extends Component {
               <Col>
                 <div className="pdr-10">
                   <div className="logo">
-                    <img src={this.state.src1} width="319" height="250" className="image" />
+                    <img src={this.state.src1} alt="" width="319" height="250" className="image" />
                   </div>
                 </div>
               </Col>
@@ -57,7 +58,7 @@ class Blog extends Component {
                         {this.state.name}
                       </Card.Text>
                       <Card.Text className="text-left font-weight-normal fs-12" disabled>
-                        <img src={this.state.src_tgl} width="20" height="20" className="image" />
+                        <img src={this.state.src_tgl} alt="" width="20" height="20" className="image" />
                         {this.state.date}
                       </Card.Text>
                       <Card.Text className="text-left font-weight-normal fs-12">
@@ -67,7 +68,7 @@ class Blog extends Component {
                         sed fringilla.
                       </Card.Text>
                       <div>
-                        <img src={this.state.src_25} width="40" height="40" className="image" />
+                        <img src={this.state.src_25} alt="" width="40" height="40" className="image" />
                       </div>
                     </div>
                   </Col>
@@ -81,7 +82,7 @@ class Blog extends Component {
                 <Row>
                   <Col>
                     <div>
-                      <img src={this.state.src2} width="150" height="150" className="image" />
+                      <img src={this.state.src2} alt="" width="150" height="150" className="image" />
                     </div>
                   </Col>
                   <Col>
@@ -92,14 +93,14 @@ class Blog extends Component {
                     </div>
                     <div className="pdt-10 pdr-5">
                       <Card.Text className="text-left font-weight-normal fs-12">
-                        <img src={this.state.src_tgl} width="20" height="20" className="image" />
+                        <img src={this.state.src_tgl} alt="" width="20" height="20" className="image" />
                         {this.state.date}
                       </Card.Text>
                     </div>
                     <div className="pdt-10 pdr-5">
                       <Card.Text>
                         <div className="logo">
-                          <img src={this.state.src_25} width="40" height="40" className="image" />
+                          <img src={this.state.src_25} alt="" width="40" height="40" className="image" />
                         </div>
                       </Card.Text>
                     </div>
@@ -108,7 +109,7 @@ class Blog extends Component {
                 <Row>
                   <Col>
                     <div className="pdt-10">
-                      <img src={this.state.src3} width="150" height="150" className="image" />
+                      <img src={this.state.src3} alt="" width="150" height="150" className="image" />
                     </div>
                   </Col>
                   <Col>
@@ -119,14 +120,14 @@ class Blog extends Component {
                     </div>
                     <div className="pdt-10 pdr-5">
                       <Card.Text className="text-left font-weight-normal fs-12">
-                        <img src={this.state.src_tgl} width="20" height="20" className="image" />
+                        <img src={this.state.src_tgl} alt="" width="20" height="20" className="image" />
                         {this.state.date}
                       </Card.Text>
                     </div>
                     <div className="pdt-10 pdr-5">
                       <Card.Text>
                         <div className="logo">
-                          <img src={this.state.src_25} width="40" height="40" className="image" />
+                          <img src={this.state.src_25} alt="" width="40" height="40" className="image" />
                         </div>
                       </Card.Text>
                     </div>
@@ -135,7 +136,7 @@ class Blog extends Component {
                 <Row>
                   <Col>
                     <div className="pdt-10">
-                      <img src={this.state.src4} width="150" height="150" className="image" />
+                      <img src={this.state.src4} alt="" width="150" height="150" className="image" />
                     </div>
                   </Col>
                   <Col>
@@ -146,14 +147,14 @@ class Blog extends Component {
                     </div>
                     <div className="pdt-10 pdr-5">
                       <Card.Text className="text-left font-weight-normal fs-12">
-                        <img src={this.state.src_tgl} width="20" height="20" className="image" />
+                        <img src={this.state.src_tgl} alt="" width="20" height="20" className="image" />
                         {this.state.date}
                       </Card.Text>
                     </div>
                     <div className="pdt-10 pdr-5">
                       <Card.Text>
                         <div className="logo">
-                          <img src={this.state.src_25} width="40" height="40" className="image" />
+                          <img src={this.state.src_25} alt="" width="40" height="40" className="image" />
                         </div>
                       </Card.Text>
                     </div>
@@ -164,7 +165,7 @@ class Blog extends Component {
                 <Row>
                   <Col>
                     <div>
-                      <img src={this.state.src5} width="150" height="150" className="image" />
+                      <img src={this.state.src5} alt="" width="150" height="150" className="image" />
                     </div>
                   </Col>
                   <Col>
@@ -175,14 +176,14 @@ class Blog extends Component {
                     </div>
                     <div className="pdt-10 pdr-5">
                       <Card.Text className="text-left font-weight-normal fs-12">
-                        <img src={this.state.src_tgl} width="20" height="20" className="image" />
+                        <img src={this.state.src_tgl} alt="" width="20" height="20" className="image" />
                         {this.state.date}
                       </Card.Text>
                     </div>
                     <div className="pdt-10 pdr-5">
                       <Card.Text>
                         <div className="logo">
-                          <img src={this.state.src_25} width="40" height="40" className="image" />
+                          <img src={this.state.src_25} alt="" width="40" height="40" className="image" />
                         </div>
                       </Card.Text>
                     </div>
@@ -191,7 +192,7 @@ class Blog extends Component {
                 <Row>
                   <Col>
                     <div className="pdt-10">
-                      <img src={this.state.src6} width="150" height="150" className="image" />
+                      <img src={this.state.src6} alt="" width="150" height="150" className="image" />
                     </div>
                   </Col>
                   <Col>
@@ -202,14 +203,14 @@ class Blog extends Component {
                     </div>
                     <div className="pdt-10 pdr-5">
                       <Card.Text className="text-left font-weight-normal fs-12">
-                        <img src={this.state.src_tgl} width="20" height="20" className="image" />
+                        <img src={this.state.src_tgl} alt="" width="20" height="20" className="image" />
                         {this.state.date}
                       </Card.Text>
                     </div>
                     <div className="pdt-10 pdr-5">
                       <Card.Text>
                         <div className="logo">
-                          <img src={this.state.src_25} width="40" height="40" className="image" />
+                          <img src={this.state.src_25} alt="" width="40" height="40" className="image" />
                         </div>
                       </Card.Text>
                     </div>
@@ -218,7 +219,7 @@ class Blog extends Component {
                 <Row>
                   <Col>
                     <div className="pdt-10">
-                      <img src={this.state.src7} width="150" height="150" className="image" />
+                      <img src={this.state.src7} alt="" width="150" height="150" className="image" />
                     </div>
                   </Col>
                   <Col>
@@ -229,14 +230,14 @@ class Blog extends Component {
                     </div>
                     <div className="pdt-10 pdr-5">
                       <Card.Text className="text-left font-weight-normal fs-12">
-                        <img src={this.state.src_tgl} width="20" height="20" className="image" />
+                        <img src={this.state.src_tgl} alt="" width="20" height="20" className="image" />
                         {this.state.date}
                       </Card.Text>
                     </div>
                     <div className="pdt-10 pdr-5">
                       <Card.Text>
                         <div className="logo">
-                          <img src={this.state.src_25} width="40" height="40" />
+                          <img src={this.state.src_25} alt="" width="40" height="40" />
                         </div>
                       </Card.Text>
                     </div>

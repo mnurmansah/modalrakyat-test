@@ -17,7 +17,7 @@ export default function Home() {
     <>
       <hr />
       <div className="text-center">
-        <img src="/images/banner.svg" className="banner" />
+        <img src="/images/banner.svg" alt="" className="banner" />
       </div>
       <div className="pd-0">
         <Container>
@@ -52,7 +52,7 @@ export default function Home() {
 
         </Container>
         <div className="text-center">
-          <img src="/images/lorem.svg" className="lorem" />
+          <img src="/images/lorem.svg" alt="" className="lorem" />
         </div>
       </div>
     </>

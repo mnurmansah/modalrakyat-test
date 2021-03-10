@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 import {
   Card, Row, Col, Form, Button,
@@ -21,7 +22,7 @@ const Comment = () => (
               </Col>
               <Col sm={4}>
                 <div className="d-flex align-left">
-                  <div className="pdt-10"><img src="../images/vendor.svg" width="50" height="50" className="image" /></div>
+                  <div className="pdt-10"><img src="../images/vendor.svg" alt="" width="50" height="50" className="image" /></div>
 
                   <p className="mgl-10 font-weight-bold fs-12 pdt-10">
                     John S. Doe
@@ -36,13 +37,15 @@ const Comment = () => (
             <Row>
               <Col>
                 <div className="d-flex align-left">
-                  <div className="pdt-10"><img src="../images/vendor.svg" width="100" height="100" className="image" /></div>
+                  <div className="pdt-10"><img src="../images/vendor.svg" alt="" width="100" height="100" className="image" /></div>
                   <p className="mgl-15 font-weight-bold fs-12 pdt-10">
                     John S. Doe
                     <br />
                     <p className="fs-10"><i>5 hours ago</i></p>
                     <p className="font-weight-normal fs-12 pdt-5">
                       Ut in magna eget felis sodales ultrices. Aenean libero lacus, euismod sed tempus ut,
+                      {' '}
+                      <br />
                       vulputate ut nulla. Nulla facilisi. Pellentesque quam elementum consectetur quis nec
                       purus.
                     </p>
@@ -50,13 +53,13 @@ const Comment = () => (
                 </div>
               </Col>
               <p className="pdt-10 mgr-20">
-                <a href="" className="link">Reply</a>
+                <a href="!#" className="link">Reply</a>
               </p>
             </Row>
             <Row>
               <Col>
                 <div className="d-flex align-left">
-                  <div className="pdt-10"><img src="../images/cars-product/avatar-comment/avatar-comment1.svg" width="100" height="100" className="image" /></div>
+                  <div className="pdt-10"><img src="../images/cars-product/avatar-comment/avatar-comment1.svg" alt="" width="100" height="100" className="image" /></div>
                   <p className="mgl-15 font-weight-bold fs-12 pdt-10">
                     Alex Greenwood
                     <br />
@@ -70,13 +73,13 @@ const Comment = () => (
                 </div>
               </Col>
               <p className="pdt-10 mgr-20">
-                <a href="" className="link">Reply</a>
+                <a href="!#" className="link">Reply</a>
               </p>
             </Row>
             <Row>
               <Col>
                 <div className="d-flex align-left">
-                  <div className="pdt-10"><img src="../images/cars-product/avatar-comment/avatar-comment2.svg" width="100" height="100" className="image" /></div>
+                  <div className="pdt-10"><img src="../images/cars-product/avatar-comment/avatar-comment2.svg" alt="" width="100" height="100" className="image" /></div>
                   <p className="mgl-15 font-weight-bold fs-12 pdt-10">
                     Alice Fork
                     <br />
@@ -90,7 +93,7 @@ const Comment = () => (
                 </div>
               </Col>
               <p className="pdt-10 mgr-20">
-                <a href="" className="link">Reply</a>
+                <a href="!#" className="link">Reply</a>
               </p>
             </Row>
           </Card.Body>

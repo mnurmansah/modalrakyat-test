@@ -1,3 +1,4 @@
+/* eslint-disable react/destructuring-assignment */
 import React, { Component } from 'react';
 
 import {
@@ -29,10 +30,10 @@ class HotDeals extends Component {
           <div className="card-header">
             <ul className="nav nav-tabs card-header-tabs">
               <li className="nav-item">
-                <a className="nav-link active" href="#"><h6><b>USED</b></h6></a>
+                <a className="nav-link active" href="!#"><h6><b>USED</b></h6></a>
               </li>
               <li className="nav-item mgl-10">
-                <a className="nav-link" href="#"><h6><b>NEW</b></h6></a>
+                <a className="nav-link" href="!#"><h6><b>NEW</b></h6></a>
               </li>
             </ul>
           </div>
@@ -41,7 +42,7 @@ class HotDeals extends Component {
               <Col>
                 <div className="pdr-10">
                   <div>
-                    <img src={this.state.src1} width="319" height="250" className="image" />
+                    <img src={this.state.src1} alt="" width="319" height="250" className="image" />
                   </div>
                   <Card.Body>
                     <div className="pdr-5">
@@ -51,13 +52,13 @@ class HotDeals extends Component {
                     </div>
                     <div className="pdt-8 pdr-5">
                       <Card.Text className="text-left font-weight-normal fs-12">
-                        <img src={this.state.src_tgl} width="20" height="20" className="image" />
+                        <img src={this.state.src_tgl} alt="" width="20" height="20" className="image" />
                         {this.state.year}
                       </Card.Text>
                     </div>
                     <div className="pdt-8 pdr-5">
                       <Card.Text className="text-left font-weight-normal fs-12">
-                        <img src={this.state.src_v} width="20" height="20" className="image" />
+                        <img src={this.state.src_v} alt="" width="20" height="20" className="image" />
                         {this.state.view}
                       </Card.Text>
                     </div>
@@ -73,7 +74,7 @@ class HotDeals extends Component {
                 <Row>
                   <Col>
                     <div className="">
-                      <img src={this.state.src2} width="150" height="150" className="image" />
+                      <img src={this.state.src2} alt="" width="150" height="150" className="image" />
                     </div>
                   </Col>
                   <Col>
@@ -84,13 +85,13 @@ class HotDeals extends Component {
                     </div>
                     <div className="pdr-5">
                       <Card.Text className="text-left font-weight-normal fs-12">
-                        <img src={this.state.src_tgl} width="20" height="20" className="image" />
+                        <img src={this.state.src_tgl} alt="" width="20" height="20" className="image" />
                         {this.state.year}
                       </Card.Text>
                     </div>
                     <div className="pdt-8 pdr-5">
                       <Card.Text className="text-left font-weight-normal fs-12">
-                        <img src={this.state.src_v} width="20" height="20" className="image" />
+                        <img src={this.state.src_v} alt="" width="20" height="20" className="image" />
                         {this.state.view}
                       </Card.Text>
                     </div>
@@ -104,7 +105,7 @@ class HotDeals extends Component {
                 <Row>
                   <Col>
                     <div className="pdt-20">
-                      <img src={this.state.src3} width="150" height="150" className="image" />
+                      <img src={this.state.src3} alt="" width="150" height="150" className="image" />
                     </div>
                   </Col>
                   <Col>
@@ -115,13 +116,13 @@ class HotDeals extends Component {
                     </div>
                     <div className="pdr-5">
                       <Card.Text className="text-left font-weight-normal fs-12">
-                        <img src={this.state.src_tgl} width="20" height="20" className="image" />
+                        <img src={this.state.src_tgl} alt="" width="20" height="20" className="image" />
                         {this.state.year}
                       </Card.Text>
                     </div>
                     <div className="pdt-8 pdr-5">
                       <Card.Text className="text-left font-weight-normal fs-12">
-                        <img src={this.state.src_v} width="20" height="20" className="image" />
+                        <img src={this.state.src_v} alt="" width="20" height="20" className="image" />
                         {this.state.view}
                       </Card.Text>
                     </div>
@@ -135,7 +136,7 @@ class HotDeals extends Component {
                 <Row>
                   <Col>
                     <div className="pdt-20">
-                      <img src={this.state.src4} width="150" height="150" className="image" />
+                      <img src={this.state.src4} alt="" width="150" height="150" className="image" />
                     </div>
                   </Col>
                   <Col>
@@ -146,13 +147,13 @@ class HotDeals extends Component {
                     </div>
                     <div className="pdr-5">
                       <Card.Text className="text-left font-weight-normal fs-12">
-                        <img src={this.state.src_tgl} width="20" height="20" className="image" />
+                        <img src={this.state.src_tgl} alt="" width="20" height="20" className="image" />
                         {this.state.year}
                       </Card.Text>
                     </div>
                     <div className="pdt-8 pdr-5">
                       <Card.Text className="text-left font-weight-normal fs-12">
-                        <img src={this.state.src_v} width="20" height="20" className="image" />
+                        <img src={this.state.src_v} alt="" width="20" height="20" className="image" />
                         {this.state.view}
                       </Card.Text>
                     </div>

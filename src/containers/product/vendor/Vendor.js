@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import {
   Card, Col, Row, Button,
@@ -17,7 +18,7 @@ const Vendor = () => (
               <Row>
                 <Col sm={4}>
                   <div className="">
-                    <img src="../images/vendor.svg" width="150" height="200" className="image" />
+                    <img src="../images/vendor.svg" alt="" width="150" height="200" className="image" />
                   </div>
                 </Col>
                 <Col sm={8}>
@@ -40,7 +41,7 @@ const Vendor = () => (
             </Col>
             <Col>
               <p className="mgt-5 text-center">
-                <a href="" className="link">See full vendor's info</a>
+                <a href="!#" className="link">See full vendor's info</a>
               </p>
               <div className="text-center">
                 <Button className="button-vendor">+1 (555) 555 - 35 - 55</Button>

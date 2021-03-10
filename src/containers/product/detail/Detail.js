@@ -26,41 +26,46 @@ const Detail = () => (
                       <img
                         className="d-block w-100"
                         src="../images/cars-product/super-car/supercar.svg"
+                        alt=""
                       />
                     </Carousel.Item>
                     <Carousel.Item>
                       <img
                         className="d-block w-100"
                         src="../images/cars-product/super-car/supercar1.svg"
+                        alt=""
                       />
                     </Carousel.Item>
                     <Carousel.Item>
                       <img
                         className="d-block w-100"
                         src="../images/cars-product/super-car/supercar2.svg"
+                        alt=""
                       />
                     </Carousel.Item>
                     <Carousel.Item>
                       <img
                         className="d-block w-100"
                         src="../images/cars-product/super-car/supercar3.svg"
+                        alt=""
                       />
                     </Carousel.Item>
                     <Carousel.Item>
                       <img
                         className="d-block w-100"
                         src="../images/cars-product/super-car/supercar4.svg"
+                        alt=""
                       />
                     </Carousel.Item>
                   </Carousel>
                 </Col>
                 <Col className="pdt-30">
-                  <img src="../images/cars-product/super-car/supercar1.svg" width="75" height="66" className="image-bottom pdr-8" />
-                  <img src="../images/cars-product/super-car/supercar2.svg" width="75" height="66" className="image-bottom pdr-8" />
-                  <img src="../images/cars-product/super-car/supercar1.svg" width="75" height="66" className="image-bottom pdr-8" />
-                  <img src="../images/cars-product/super-car/supercar2.svg" width="75" height="66" className="image-bottom pdr-8" />
+                  <img src="../images/cars-product/super-car/supercar1.svg" alt="" width="75" height="66" className="image-bottom pdr-8" />
+                  <img src="../images/cars-product/super-car/supercar2.svg" alt="" width="75" height="66" className="image-bottom pdr-8" />
+                  <img src="../images/cars-product/super-car/supercar1.svg" alt="" width="75" height="66" className="image-bottom pdr-8" />
+                  <img src="../images/cars-product/super-car/supercar2.svg" alt="" width="75" height="66" className="image-bottom pdr-8" />
                   <p className="mgt-10 fs-10 text-center">
-                    <a href="" className="link">[+] View All Photos</a>
+                    <a href="!#" className="link">[+] View All Photos</a>
                   </p>
                 </Col>
               </Row>

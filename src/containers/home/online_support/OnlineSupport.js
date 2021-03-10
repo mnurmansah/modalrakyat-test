@@ -3,7 +3,6 @@ import {
   Card, Button, Row, Col,
 } from 'react-bootstrap';
 import './OnlineSupport.scss';
-import './images/avatar.svg';
 
 const OnlineSupport = () => (
   <>
@@ -16,7 +15,7 @@ const OnlineSupport = () => (
           <Row>
             <Col>
               <div className="logo">
-                <img src="./images/avatar.svg" width="120" height="120" className="image" />
+                <img src="./images/avatar.svg" alt="" width="120" height="120" className="image" />
               </div>
 
             </Col>
@@ -32,7 +31,7 @@ const OnlineSupport = () => (
             <Button className="button-online">+1 (555) 555 - 35 - 55</Button>
           </div>
           <p className="mgt-12">
-            <a href="" className="link">Contact Support Team</a>
+            <a href="!#" className="link">Contact Support Team</a>
             <Card.Text>
               Learn more about
               {' '}
