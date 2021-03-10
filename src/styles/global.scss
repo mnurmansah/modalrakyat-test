@@ -1,0 +1,72 @@
+@for $i from 8 to 32 {
+  // Custom font size from 8px to 32px
+  .fs-#{$i} {
+    font-size: #{$i}px;
+
+    @media screen and (min-width: 768px) {
+      font-size: #{$i + 2}px;
+    }
+  }
+
+  // Custom padding from 8px to 32px
+  .pd-#{$i} {
+    padding: #{$i}px;
+  }
+
+  .pdx-#{$i} {
+    padding-left: #{$i}px;
+    padding-right: #{$i}px;
+  }
+
+  .pdy-#{$i} {
+    padding-top: #{$i}px;
+    padding-bottom: #{$i}px;
+  }
+
+  .pdt-#{$i} {
+    padding-top: #{$i}px;
+  }
+
+  .pdr-#{$i} {
+    padding-right: #{$i}px;
+  }
+
+  .pdb-#{$i} {
+    padding-bottom: #{$i}px;
+  }
+
+  .pdl-#{$i} {
+    padding-left: #{$i}px;
+  }
+
+  // Custom margin from 8px to 32px
+  .mg-#{$i} {
+    margin: #{$i}px;
+  }
+
+  .mgx-#{$i} {
+    margin-left: #{$i}px;
+    margin-right: #{$i}px;
+  }
+
+  .mgy-#{$i} {
+    margin-top: #{$i}px;
+    margin-bottom: #{$i}px;
+  }
+
+  .mgt-#{$i} {
+    margin-top: #{$i}px;
+  }
+
+  .mgr-#{$i} {
+    margin-right: #{$i}px;
+  }
+
+  .mgb-#{$i} {
+    margin-bottom: #{$i}px;
+  }
+
+  .mgl-#{$i} {
+    margin-left: #{$i}px;
+  }
+}

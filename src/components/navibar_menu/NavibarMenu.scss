@@ -1,0 +1,33 @@
+@import "../../styles/variables.scss";
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.navibar-icon {
+  height: 46px;
+  margin-left: 20px;
+  padding-right: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.btn {
+  &.custom-button {
+    background: green;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    min-width: 224px;
+    height: 58px;
+    border: none;
+    margin-top: 20px;
+    margin-right: 5px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  &.fluid {
+    min-width: 100%;
+  }
+}

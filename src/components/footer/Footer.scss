@@ -1,0 +1,54 @@
+@import "../../styles/variables.scss";
+
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 10.5px;
+}
+footer {
+  background-color: #555;
+  color: #bbb;
+  line-height: 1.5;
+}
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+a:hover {
+  text-decoration: underline;
+}
+.ft-title {
+  color: black;
+  font-size: 1.375rem;
+  padding-bottom: 3px;
+  font-size: 13px;
+}
+
+/* Footer main */
+.ft-main {
+  padding: 1.25rem 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 29.8125rem /* 477px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (min-width: 77.5rem /* 1240px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+.ft-main-item {
+  padding: 0 px;
+  min-width: 0 px;
+}

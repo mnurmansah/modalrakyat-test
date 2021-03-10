@@ -1,0 +1,19 @@
+@import "../../styles/variables.scss";
+
+.custom-dropdown {
+  .dropdown-toggle {
+    width: 100%;
+    background-color: transparent;
+    color: $daypicker-caption;
+    border: 0.5px solid $daypicker-caption !important;
+
+    &:hover, &:focus, &:active {
+      background-color: $daypicker-caption !important;
+    }
+  }
+
+  .dropdown-menu {
+    width: 100%;
+    padding: 0
+  }
+}

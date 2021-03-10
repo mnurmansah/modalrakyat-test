@@ -1,0 +1,23 @@
+@import "../../styles/variables.scss";
+
+.error-404 {
+  height: 100vh;
+
+  @media screen and (max-width: 575.98px) {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.btn {
+  &.custom-button {
+    &.not-found {
+      background: linear-gradient(135deg, #5efce8 0%, #736efe 100%);
+
+      @media screen and (max-width: 575.98px) {
+        min-width: 100%;
+      }
+    }
+  }
+}

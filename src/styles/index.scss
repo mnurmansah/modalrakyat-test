@@ -1,0 +1,35 @@
+// import google fonts
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+// import bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// import variables
+@import "./variables.scss";
+
+// import global styles
+@import "./global.scss";
+
+body {
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  color: $grey;
+}
+
+a {
+  text-decoration: none;
+  color: $grey;
+
+  &:hover {
+    color: $grey;
+    text-decoration: none;
+  }
+}

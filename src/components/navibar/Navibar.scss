@@ -1,0 +1,20 @@
+@import "../../styles/variables.scss";
+
+.navibar-top {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 36px;
+  font-size: 11px;
+  background: #e5e5e5;
+  max-width: 100%;
+  height: auto;
+}
+
+.navigation-icon {
+  height: 100%;
+  width: 100%;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  background-color: $white;
+}

@@ -1,0 +1,45 @@
+@import "../../styles/variables.scss";
+
+.banner {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.lorem {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 100%;
+  height: auto;
+}
+
+.fc {
+  color: $grey;
+}
+
+.clear-filters {
+  color: #ffffff;
+  margin-left: 15px;
+  margin-top: 31px;
+}
+
+.search {
+  color: #ffffff;
+  margin-top: 31px;
+}
+
+.link {
+  color: red;
+}
+
+.card {
+  color: #ffffff;
+  border: 1px solid rgba(0, 34, 51, 0.1);
+  box-shadow: 2px 4px 10px 0 rgba(0, 34, 51, 0.05),
+    2px 4px 10px 0 rgba(0, 34, 51, 0.05);
+  border-radius: 0.15rem;
+}
+
+.tab-card {
+  border: 1px solid #eee;
+}
