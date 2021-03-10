@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable camelcase */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
@@ -22,7 +24,7 @@ const AccountCard = ({
             <b>
               { name }
               <br />
-              <a className="link mgt-5">{last_name}</a>
+              <p className="link mgt-5">{last_name}</p>
             </b>
           </p>
           <p>
@@ -60,7 +62,7 @@ const AccountCard = ({
 );
 
 AccountCard.propTypes = {
-  cars: PropTypes.object.isRequired,
+  car: PropTypes.object.isRequired,
 };
 
 export default AccountCard;

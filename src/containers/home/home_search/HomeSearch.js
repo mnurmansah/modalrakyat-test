@@ -11,10 +11,10 @@ const HomeSearch = () => (
       <div className="card-header ">
         <ul className="nav nav-tabs card-header-tabs">
           <li className="nav-item">
-            <a className="nav-link bg-danger" href="#" aria-selected="true"><h6><b>SEARCH</b></h6></a>
+            <p className="nav-link bg-danger" href="#"><h6><b>SEARCH</b></h6></p>
           </li>
           <li className="nav-item mgl-10">
-            <a className="nav-link" href="#" aria-selected="false"><h6><b>+ ADD LISTING</b></h6></a>
+            <p className="nav-link" href="#"><h6><b>+ ADD LISTING</b></h6></p>
           </li>
         </ul>
       </div>
