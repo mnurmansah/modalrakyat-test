@@ -1,5 +1,10 @@
 @import "../../styles/variables.scss";
 
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
 .footer-menu {
   position: fixed;
   left: 0;
@@ -25,18 +30,8 @@
   border-radius: 50%;
 }
 
-.btn {
-  &.custom-button {
-    background: green;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    min-width: 224px;
-    height: 58px;
-    border: none;
-    margin-right: 5px;
-  }
-
-  &.fluid {
-    min-width: 100%;
+@media screen and (max-width: 600px) {
+  ul.fa {
+    display: none;
   }
 }

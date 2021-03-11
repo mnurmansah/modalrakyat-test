@@ -1,16 +1,19 @@
 @import "../../styles/variables.scss";
 
-.banner {
-  margin-top: 10px;
-  margin-bottom: 20px;
-  width: 100%;
-}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (max-width: 1024px) {
+  .banner {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
 
-.lorem {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  max-width: 100%;
-  height: auto;
+  .lorem {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .fc {
@@ -42,4 +45,8 @@
 
 .tab-card {
   border: 1px solid #eee;
+}
+
+[class*="col-"] {
+  width: 100%;
 }

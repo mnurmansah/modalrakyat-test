@@ -1,18 +1,23 @@
 @import "../../../styles/variables.scss";
 
-.card {
-  color: #ffffff;
-  border: 1px solid rgba(0, 34, 51, 0.1);
-  box-shadow: 2px 4px 10px 0 rgba(0, 34, 51, 0.05),
-    2px 4px 10px 0 rgba(0, 34, 51, 0.05);
-  border-radius: 0.15rem;
-}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
 
-.tab-card {
-  border: 1px solid #eee;
-}
+  .card {
+    color: #ffffff;
+    border: 1px solid rgba(0, 34, 51, 0.1);
+    box-shadow: 2px 4px 10px 0 rgba(0, 34, 51, 0.05),
+      2px 4px 10px 0 rgba(0, 34, 51, 0.05);
+    border-radius: 0.15rem;
+  }
 
-.image {
-  max-width: 100%;
-  height: auto;
+  .tab-card {
+    border: 1px solid #eee;
+  }
+
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
 }
