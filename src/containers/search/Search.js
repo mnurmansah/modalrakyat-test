@@ -6,6 +6,7 @@ import {
 import './Search.scss';
 import Filter from './filter/Filter';
 import AccountCard from './account_card/AccountCard';
+import AccountCardList from './account_card_list/AccountCardList';
 import Newsletter from '../home/newsletter/Newsletter';
 import OnlineSupport from '../home/online_support/OnlineSupport';
 
@@ -20,11 +21,16 @@ class Search extends React.Component {
           last_name: 'Qashqai',
           location: 'Newyork',
           init_location: ', NY',
+          username: 'Hary Roberts',
           year: '2005',
           view: '1.6',
           mode: 'Automatic',
           km: '16000 miles',
           price: '$25000',
+          type: 'Sedan',
+          dinamo: 'Front-wheel',
+          oil: 'Petrol',
+          date: '25 March,2013',
           star: './images/cars-search/star.svg',
         },
         {
@@ -33,11 +39,16 @@ class Search extends React.Component {
           last_name: 'Qashqai',
           location: 'Newyork',
           init_location: ', NY',
+          username: 'Hary Roberts',
           year: '2005',
           view: '1.6',
           mode: 'Automatic',
           km: '16000 miles',
           price: '$25000',
+          type: 'Sedan',
+          dinamo: 'Front-wheel',
+          oil: 'Petrol',
+          date: '25 March,2013',
           star: './images/cars-search/star.svg',
         },
         {
@@ -46,11 +57,16 @@ class Search extends React.Component {
           last_name: 'Qashqai',
           location: 'Newyork',
           init_location: ', NY',
+          username: 'Hary Roberts',
           year: '2005',
           view: '1.6',
           mode: 'Automatic',
           km: '16000 miles',
           price: '$25000',
+          type: 'Sedan',
+          dinamo: 'Front-wheel',
+          oil: 'Petrol',
+          date: '25 March,2013',
           star: './images/cars-search/star.svg',
         },
         {
@@ -59,11 +75,16 @@ class Search extends React.Component {
           last_name: 'Qashqai',
           location: 'Newyork',
           init_location: ', NY',
+          username: 'Hary Roberts',
           year: '2005',
           view: '1.6',
           mode: 'Automatic',
           km: '16000 miles',
           price: '$25000',
+          type: 'Sedan',
+          dinamo: 'Front-wheel',
+          oil: 'Petrol',
+          date: '25 March,2013',
           star: './images/cars-search/star.svg',
         },
         {
@@ -72,11 +93,16 @@ class Search extends React.Component {
           last_name: 'Qashqai',
           location: 'Newyork',
           init_location: ', NY',
+          username: 'Hary Roberts',
           year: '2005',
           view: '1.6',
           mode: 'Automatic',
           km: '16000 miles',
           price: '$25000',
+          type: 'Sedan',
+          dinamo: 'Front-wheel',
+          oil: 'Petrol',
+          date: '25 March,2013',
           star: './images/cars-search/star.svg',
         },
         {
@@ -85,11 +111,16 @@ class Search extends React.Component {
           last_name: 'Qashqai',
           location: 'Newyork',
           init_location: ', NY',
+          username: 'Hary Roberts',
           year: '2005',
           view: '1.6',
           mode: 'Automatic',
           km: '16000 miles',
           price: '$25000',
+          type: 'Sedan',
+          dinamo: 'Front-wheel',
+          oil: 'Petrol',
+          date: '25 March,2013',
           star: './images/cars-search/star.svg',
         },
         {
@@ -98,11 +129,16 @@ class Search extends React.Component {
           last_name: 'Qashqai',
           location: 'Newyork',
           init_location: ', NY',
+          username: 'Hary Roberts',
           year: '2005',
           view: '1.6',
           mode: 'Automatic',
           km: '16000 miles',
           price: '$25000',
+          type: 'Sedan',
+          dinamo: 'Front-wheel',
+          oil: 'Petrol',
+          date: '25 March,2013',
           star: './images/cars-search/star.svg',
         },
         {
@@ -111,11 +147,16 @@ class Search extends React.Component {
           last_name: 'Qashqai',
           location: 'Newyork',
           init_location: ', NY',
+          username: 'Hary Roberts',
           year: '2005',
           view: '1.6',
           mode: 'Automatic',
           km: '16000 miles',
           price: '$25000',
+          type: 'Sedan',
+          dinamo: 'Front-wheel',
+          oil: 'Petrol',
+          date: '25 March,2013',
           star: './images/cars-search/star.svg',
         },
         {
@@ -124,11 +165,16 @@ class Search extends React.Component {
           last_name: 'Qashqai',
           location: 'Newyork',
           init_location: ', NY',
+          username: 'Hary Roberts',
           year: '2005',
           view: '1.6',
           mode: 'Automatic',
           km: '16000 miles',
           price: '$25000',
+          type: 'Sedan',
+          dinamo: 'Front-wheel',
+          oil: 'Petrol',
+          date: '25 March,2013',
           star: './images/cars-search/star.svg',
         },
         {
@@ -137,11 +183,16 @@ class Search extends React.Component {
           last_name: 'Qashqai',
           location: 'Newyork',
           init_location: ', NY',
+          username: 'Hary Roberts',
           year: '2005',
           view: '1.6',
           mode: 'Automatic',
           km: '16000 miles',
           price: '$25000',
+          type: 'Sedan',
+          dinamo: 'Front-wheel',
+          oil: 'Petrol',
+          date: '25 March,2013',
           star: './images/cars-search/star.svg',
         },
         {
@@ -150,11 +201,16 @@ class Search extends React.Component {
           last_name: 'Qashqai',
           location: 'Newyork',
           init_location: ', NY',
+          username: 'Hary Roberts',
           year: '2005',
           view: '1.6',
           mode: 'Automatic',
           km: '16000 miles',
           price: '$25000',
+          type: 'Sedan',
+          dinamo: 'Front-wheel',
+          oil: 'Petrol',
+          date: '25 March,2013',
           star: './images/cars-search/star.svg',
         },
         {
@@ -163,11 +219,16 @@ class Search extends React.Component {
           last_name: 'Qashqai',
           location: 'Newyork',
           init_location: ', NY',
+          username: 'Hary Roberts',
           year: '2005',
           view: '1.6',
           mode: 'Automatic',
           km: '16000 miles',
           price: '$25000',
+          type: 'Sedan',
+          dinamo: 'Front-wheel',
+          oil: 'Petrol',
+          date: '25 March,2013',
           star: './images/cars-search/star.svg',
         },
         {
@@ -176,11 +237,16 @@ class Search extends React.Component {
           last_name: 'Qashqai',
           location: 'Newyork',
           init_location: ', NY',
+          username: 'Hary Roberts',
           year: '2005',
           view: '1.6',
           mode: 'Automatic',
           km: '16000 miles',
           price: '$25000',
+          type: 'Sedan',
+          dinamo: 'Front-wheel',
+          oil: 'Petrol',
+          date: '25 March,2013',
           star: './images/cars-search/star.svg',
         },
         {
@@ -189,11 +255,16 @@ class Search extends React.Component {
           last_name: 'Qashqai',
           location: 'Newyork',
           init_location: ', NY',
+          username: 'Hary Roberts',
           year: '2005',
           view: '1.6',
           mode: 'Automatic',
           km: '16000 miles',
           price: '$25000',
+          type: 'Sedan',
+          dinamo: 'Front-wheel',
+          oil: 'Petrol',
+          date: '25 March,2013',
           star: './images/cars-search/star.svg',
         },
         {
@@ -202,11 +273,16 @@ class Search extends React.Component {
           last_name: 'Qashqai',
           location: 'Newyork',
           init_location: ', NY',
+          username: 'Hary Roberts',
           year: '2005',
           view: '1.6',
           mode: 'Automatic',
           km: '16000 miles',
           price: '$25000',
+          type: 'Sedan',
+          dinamo: 'Front-wheel',
+          oil: 'Petrol',
+          date: '25 March,2013',
           star: './images/cars-search/star.svg',
         },
       ],
@@ -265,15 +341,15 @@ class Search extends React.Component {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
                 <Row>
-                  {
-                      cars.map((car, index) => (
-                        <Col xs={6} md={4} className={index % 2 === 0 ? 'pb-2' : 'pt:2'} key={index}>
-                          <AccountCard
-                            car={car}
-                          />
-                        </Col>
-                      ))
-                    }
+                  <Col>
+                    {
+                  cars.map((car, index) => (
+                    <AccountCardList car={car} key={index} />
+                  ))
+            }
+
+                  </Col>
+
                 </Row>
               </Accordion.Collapse>
             </Accordion>

@@ -1,0 +1,22 @@
+@import "../../../styles/variables.scss";
+
+.card {
+  &.account-card {
+    color: $white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+
+    .card-text {
+      color: black;
+    }
+  }
+}
+
+.link {
+  color: red;
+}
+
+.font-price {
+  color: green;
+}
