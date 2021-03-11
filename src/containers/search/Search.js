@@ -6,6 +6,7 @@ import {
 import './Search.scss';
 import Filter from './filter/Filter';
 import AccountCard from './account_card/AccountCard';
+import Pagination from './pagination/Pagination';
 import AccountCardList from './account_card_list/AccountCardList';
 import Newsletter from '../home/newsletter/Newsletter';
 import OnlineSupport from '../home/online_support/OnlineSupport';
@@ -315,7 +316,6 @@ class Search extends React.Component {
                       </Col>
                     </Row>
                   </Form.Group>
-
                 </div>
                 <div className="p-2 flex-fill bd-highlight text-right">
                   <Accordion.Toggle eventKey="0">
@@ -326,6 +326,10 @@ class Search extends React.Component {
                   </Accordion.Toggle>
                 </div>
               </div>
+              <div className="text-center">
+                <Pagination />
+              </div>
+
               <Accordion.Collapse eventKey="0">
                 <Row>
                   {
@@ -362,6 +366,9 @@ class Search extends React.Component {
             <Newsletter />
           </Col>
         </Row>
+        <div className="position pdt-20">
+          <Pagination />
+        </div>
 
       </Container>
     );
